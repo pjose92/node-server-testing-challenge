@@ -2,7 +2,7 @@ const express = require("express");
 
 const server = express();
 
-const userRouter = required("./data/users/users-router");
+const userRouter = require("./data/users/users-router");
 
 server.use(express.json());
 
